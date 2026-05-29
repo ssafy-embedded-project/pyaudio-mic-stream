@@ -5,7 +5,7 @@ import queue
 import time
 
 # 디지털 사운드 인코딩 특성
-RATE = 16000 # Hz
+RATE = 48000 # Hz
 CHUNK = int(RATE/10) # 연속되는 음성 데이터를 끊어 처리하기 위한 버퍼크기. 100ms
 
 # 음성데이터 스트림
